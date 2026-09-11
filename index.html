@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f4ee">
+<title>越南｜胡志明 × 大叻 旅行手册</title>
+<style>
+:root{--bg:#f6f3ed;--paper:#fffdf8;--ink:#262522;--muted:#77736b;--line:#ddd6c9;--accent:#2e5d50;--warn:#a85b24;--ok:#3f735e;--shadow:0 8px 30px rgba(42,35,25,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Microsoft YaHei","微软雅黑","Noto Sans SC",sans-serif;line-height:1.55}
+a{color:inherit}
+.wrap{max-width:1080px;margin:auto;padding:18px 16px 56px}
+header{padding:18px 4px 8px}
+.kicker{font-size:12px;letter-spacing:.12em;color:var(--muted);font-weight:700}
+h1{font-size:30px;line-height:1.2;margin:7px 0}
+.subtitle{color:var(--muted);font-size:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);margin:14px 0;padding:18px}
+.hero{background:#eee7d9}
+.hero-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.hero h2{margin:0 0 5px;font-size:17px}
+.next{font-size:14px;color:var(--muted)}
+.count{display:flex;gap:7px;margin-top:14px}
+.unit{min-width:62px;background:#fffaf0;border-radius:14px;padding:9px 7px;text-align:center;border:1px solid #e3dac9}
+.unit b{display:block;font-size:26px;line-height:1}
+.unit span{font-size:11px;color:var(--muted)}
+.tz{font-size:11px;color:var(--muted);margin-top:10px}
+.alert{border-left:4px solid var(--warn);background:#fff6ed;padding:12px 14px;border-radius:10px;font-size:13px}
+.ok{border-left:4px solid var(--ok);background:#eef7f1;padding:12px 14px;border-radius:10px;font-size:13px}
+h2.section{font-size:21px;margin:4px 0 12px}
+h3{font-size:16px;margin:14px 0 8px}
+.meta{color:var(--muted);font-size:12px}
+.badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 8px;font-size:11px;margin:2px 3px 2px 0;background:#fff}
+.badge.warn{border-color:#e1b48f;background:#fff4e9;color:#8b4b1c}
+.badge.done{border-color:#a8c8b6;background:#eff8f2;color:#35634d}
+svg{width:100%;height:auto;display:block}
+.mapbox{background:#f9f5ec;border-radius:16px;padding:8px;border:1px solid var(--line)}
+.route{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:5}
+.daynav{display:flex;gap:7px;overflow:auto;padding-bottom:2px}
+.daynav a{white-space:nowrap;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 11px;font-size:12px}
+.timeline{display:grid;grid-template-columns:92px 1fr;gap:0;border-top:1px solid var(--line)}
+.item{display:contents}
+.time{padding:14px 8px 14px 0;border-bottom:1px solid var(--line);font-size:12px;font-weight:700;color:#5d5a54}
+.content{padding:12px 0 12px 14px;border-bottom:1px solid var(--line);position:relative}
+.content:before{content:"";position:absolute;left:0;top:18px;width:7px;height:7px;border-radius:50%;background:#6b756f}
+.place{font-weight:700}
+.detail{font-size:13px;margin-top:3px}
+.addr{font-size:11px;color:var(--muted);margin-top:5px}
+.links{margin-top:7px;display:flex;gap:6px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;background:#f0eee8;border:1px solid #ddd7ca;border-radius:9px;padding:5px 8px;font-size:11px}
+.day{scroll-margin-top:12px}
+.dayhead{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.daytitle{font-size:20px;font-weight:800}
+.daydate{font-size:12px;color:var(--muted)}
+details{border-top:1px dashed var(--line);margin-top:12px;padding-top:8px}
+summary{cursor:pointer;font-size:12px;font-weight:700}
+.todo{list-style:none;margin:0;padding:0}
+.todo li{padding:9px 0;border-bottom:1px solid var(--line);font-size:13px}
+.todo .date{font-weight:800;color:#5b574f;margin-top:12px}
+.small{font-size:12px;color:var(--muted)}
+footer{font-size:11px;color:var(--muted);text-align:center;margin-top:26px}
+@media(max-width:600px){
+ .wrap{padding:12px 11px 42px}.card{border-radius:16px;padding:14px}
+ h1{font-size:25px}.count{gap:4px}.unit{min-width:0;flex:1;padding:8px 4px}.unit b{font-size:22px}
+ .timeline{grid-template-columns:78px 1fr}.time{font-size:11px}.content{padding-left:12px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="kicker">VIETNAM · 2026.09.12 — 09.17</div>
+<h1>胡志明 × 大叻旅行手册</h1>
+<div class="subtitle">所有时间均按事件所在地时区计算 · 北京 UTC+8 / 越南 UTC+7</div>
+</header>
+
+<section class="card hero" id="focus">
+<div class="hero-top">
+<div>
+<h2>此刻关注</h2>
+<div class="next" id="nextName">加载下一项…</div>
+</div>
+<span class="badge" id="nextTz">—</span>
+</div>
+<div class="count">
+<div class="unit"><b id="dd">0</b><span>天</span></div>
+<div class="unit"><b id="hh">00</b><span>时</span></div>
+<div class="unit"><b id="mm">00</b><span>分</span></div>
+<div class="unit"><b id="ss">00</b><span>秒</span></div>
+</div>
+<div class="tz">倒计时基于带 UTC 偏移的绝对时间，手机在哪个国家打开都不会因本地时区改变目标时间。</div>
+</section>
+
+<section class="card">
+<h2 class="section">先看这几个风险</h2>
+<div class="alert"><b>① Day 3 酒店早入住是硬风险：</b>Brick House Dalat Hotel 公示入住时间为 14:00–23:30，而你的计划是 9/14 06:30–08:00 办理入住。Day 3 按你的要求不改，但必须提前向酒店确认 early check-in；否则按“寄存行李 + 早餐”执行。</div>
+<div class="ok" style="margin-top:9px"><b>② 已核对的关键开放时间基本能对上：</b>Domaine de Marie 07:00–17:00；Datanla 07:00–17:00；大叻夜市 18:00–23:00；GO! Đà Lạt 07:30–22:00；工作日大叻主教座堂晚弥撒 17:15。你的对应时段均落在开放区间内。</div>
+<div class="small" style="margin-top:9px">9/14–9/16 不属于越南 2026 国庆假期；2026 年国庆假期集中在 8/29–9/2，因此本次行程不属于国庆长假核心拥挤期。</div>
+</section>
+
+<section class="card">
+<h2 class="section">行程总览</h2>
+<div class="daynav">
+<a href="#day1">D1 · 胡志明</a><a href="#day2">D2 · 夜巴</a><a href="#day3">D3 · 大叻</a><a href="#day4">D4 · 大叻</a><a href="#day5">D5 · 大叻→胡志明</a>
+</div>
+<div class="mapbox" style="margin-top:10px">
+<svg viewBox="0 0 900 430" role="img" aria-label="手绘感旅行路线总览">
+<path d="M110 105 C180 125 225 160 280 210 S390 290 460 315 S580 345 690 325" stroke="#ddd5c7" stroke-width="2" fill="none" stroke-dasharray="5 7"/>
+<path d="M120 105 C160 120 200 155 235 190" class="route" stroke="#d96b5f"/>
+<path d="M235 190 C300 235 350 280 410 300 C470 320 520 330 600 315" class="route" stroke="#4f78a8"/>
+<path d="M600 315 C670 290 730 255 790 210" class="route" stroke="#6d8d61"/>
+<circle cx="120" cy="105" r="10" fill="#d96b5f"/><circle cx="235" cy="190" r="10" fill="#d96b5f"/>
+<circle cx="600" cy="315" r="10" fill="#4f78a8"/><circle cx="790" cy="210" r="10" fill="#6d8d61"/>
+<g font-family="Microsoft YaHei, sans-serif" fill="#37342f">
+<text x="78" y="82" font-size="20" font-weight="700">广州</text><text x="78" y="128" font-size="12">9/12 · 白云机场</text>
+<text x="198" y="171" font-size="20" font-weight="700">胡志明</text><text x="182" y="214" font-size="12">M Village · 9/12</text>
+<text x="545" y="355" font-size="20" font-weight="700">大叻</text><text x="535" y="378" font-size="12">Brick House · 9/14–9/16</text>
+<text x="755" y="190" font-size="20" font-weight="700">胡志明</text><text x="744" y="235" font-size="12">夜巴返回 · 9/17 航班</text>
+</g>
+<g font-family="Microsoft YaHei, sans-serif" font-size="11" fill="#6d685f">
+<text x="335" y="205">夜间大巴</text><text x="680" y="275">夜间大巴</text>
+</g>
+</svg>
+</div>
+<div class="small" style="margin-top:7px">示意路线用于快速理解天数与住宿锚点；具体导航以 Google Maps 实时道路为准。</div>
+</section>
+
+<section class="card">
+<h2 class="section">已确认交通 / 住宿</h2>
+<h3>✈️ 9/12 广州 → 胡志明</h3>
+<div class="detail"><b>16:05–17:55 · 北京时间/越南时间分别显示</b></div>
+<div class="addr">广州白云机场 T2 → 胡志明市新山一机场 T2 · 航班时间以已出票信息为准</div>
+<h3>🚌 夜间大巴 · 已购</h3>
+<div class="detail"><b>9/13 00:00–06:00 · 越南时间 UTC+7</b></div>
+<div class="addr">胡志明 → 大叻 · 车票已购买，不作为待购事项；具体上下车点以车票为准。</div>
+<h3>🏨 M Village Võ Thị Sáu · 9/12</h3>
+<div class="detail">232/15 Võ Thị Sáu, Xuân Hòa, Hồ Chí Minh · +84 818 999 319</div>
+<div class="addr">入住目标：19:00–20:30 · 不展示订单号/房间号</div>
+<h3>🏨 Brick House Dalat Hotel · 9/14–9/16</h3>
+<div class="detail">50 Pasteur, Phường 4, Đà Lạt · +84 263 354 0789</div>
+<div class="addr">入住政策：14:00 起；已在上方标注你计划中的早入住风险。</div>
+<h3>🚌 9/16→9/17 夜间大巴 · 已购</h3>
+<div class="detail"><b>00:00–06:00 · 越南时间 UTC+7</b></div>
+<div class="addr">大叻 → 胡志明 · 车票已购买，具体上下车点以车票为准。</div>
+<h3>✈️ 9/17 胡志明 → 广州</h3>
+<div class="detail"><b>18:55–23:15 · 越南时间 → 北京时间</b></div>
+<div class="addr">胡志明市 → 广州 · 以已出票航班为最终锚点。</div>
+</section>
+
+<section class="card day" id="day1">
+<div class="dayhead"><div><div class="daytitle">Day 1 · 胡志明</div><div class="daydate">9/12 · 北京时间/越南时间</div></div><span class="badge done">航班已出票</span></div>
+<div class="timeline">
+<div class="item"><div class="time">12:00–14:00<br>UTC+8</div><div class="content"><div class="place">广州白云机场 T2</div><div class="detail">出发机场 → 16:05 航班</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=广州白云国际机场T2" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">16:05–17:55<br>UTC+8 / +7</div><div class="content"><div class="place">广州 → 胡志明</div><div class="detail">已出票航班 · 飞行时间作为当天绝对锚点</div></div></div>
+<div class="item"><div class="time">19:00–20:30<br>UTC+7</div><div class="content"><div class="place">M Village Võ Thị Sáu</div><div class="detail">Grab 约 25–45 min · 办理入住</div><div class="addr">232/15 Võ Thị Sáu, Xuân Hòa, Hồ Chí Minh</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=M+Village+Vo+Thi+Sau+232%2F15+Vo+Thi+Sau+Ho+Chi+Minh" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">20:30–22:00<br>UTC+7</div><div class="content"><div class="place">Phở Miến gà Kỳ Đồng</div><div class="detail">晚餐 · 步行约 10 min</div><div class="addr">14/5Bis Đ. Kỳ Đồng, Hồ Chí Minh · +84 28 3843 5630</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Pho+Mien+Ga+Ky+Dong+14%2F5Bis+Ky+Dong+Ho+Chi+Minh" target="_blank">Google Maps</a></div></div></div>
+</div>
+</section>
+
+<section class="card day" id="day2">
+<div class="dayhead"><div><div class="daytitle">Day 2 · 胡志明 → 大叻</div><div class="daydate">9/13 · 夜间大巴</div></div><span class="badge done">车票已购</span></div>
+<div class="timeline">
+<div class="item"><div class="time">00:00–06:00<br>UTC+7</div><div class="content"><div class="place">夜间大巴：胡志明 → 大叻</div><div class="detail">车票已买 · 以车票上的实际发车/到达站为准</div></div></div>
+</div>
+</section>
+
+<section class="card day" id="day3">
+<div class="dayhead"><div><div class="daytitle">Day 3 · 大叻</div><div class="daydate">9/14 · 按你的要求：行程不变</div></div><span class="badge">D3 固定</span></div>
+<div class="timeline">
+<div class="item"><div class="time">06:30–08:00<br>UTC+7</div><div class="content"><div class="place">Brick House Dalat Hotel</div><div class="detail">计划办理入住 / 休整</div><div class="addr">50 Pasteur, Phường 4, Đà Lạt</div><span class="badge warn">需提前确认 early check-in</span></div></div>
+<div class="item"><div class="time">08:00–09:00<br>UTC+7</div><div class="content"><div class="place">鸡肉 Pho</div><div class="detail">早餐 · 步行约 15 min</div><div class="addr">1/46 Đ. Hoàng Diệu, Đà Lạt</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=1%2F46+Hoang+Dieu+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">09:00–10:30<br>UTC+7</div><div class="content"><div class="place">Domaine de Marie</div><div class="detail">游览 · 步行约 15–20 min</div><div class="addr">1 Ngô Quyền, Phường 6, Đà Lạt</div><span class="badge done">免费</span><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Domaine+de+Marie+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">10:30–12:00<br>UTC+7</div><div class="content"><div class="place">春香湖散步</div><div class="detail">市区散步 · 不设硬门票时间</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Xuan+Huong+Lake+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">12:30–13:30<br>UTC+7</div><div class="content"><div class="place">Tiệm gà hạnh phúc</div><div class="detail">午餐 · 烤鸡/竹筒饭</div><div class="addr">2 Trần Hưng Đạo, Xuân Hương, Đà Lạt</div></div></div>
+<div class="item"><div class="time">14:00–16:00<br>UTC+7</div><div class="content"><div class="place">回酒店休息</div><div class="detail">保留机动时间</div></div></div>
+<div class="item"><div class="time">16:00–18:00<br>UTC+7</div><div class="content"><div class="place">Cửa Hiệu Là Nhất</div><div class="detail">咖啡 / 小店</div><div class="addr">Hẻm 32 Đường 3 Tháng 4, Phường 3, Đà Lạt</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Cua+Hieu+La+Nhat+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">18:00–21:00<br>UTC+7</div><div class="content"><div class="place">大叻夜市</div><div class="detail">晚餐 / 逛夜市</div><div class="addr">Nguyễn Thị Minh Khai / Da Lat Market area</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Da+Lat+Night+Market" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">22:00<br>UTC+7</div><div class="content"><div class="place">回酒店休息</div></div></div>
+</div>
+<details><summary>展开 Day 3 路线地图</summary><div class="mapbox" style="margin-top:8px"><svg viewBox="0 0 700 260"><path d="M90 190 C150 130 180 100 250 90 S390 130 450 170 S560 180 620 90" class="route" stroke="#4f78a8"/><g font-family="Microsoft YaHei"><circle cx="90" cy="190" r="8" fill="#4f78a8"/><circle cx="250" cy="90" r="8" fill="#4f78a8"/><circle cx="450" cy="170" r="8" fill="#4f78a8"/><circle cx="620" cy="90" r="8" fill="#4f78a8"/><text x="55" y="220">酒店</text><text x="215" y="70">Domaine</text><text x="410" y="200">春香湖</text><text x="575" y="70">夜市</text></g></svg></div></details>
+</section>
+
+<section class="card day" id="day4">
+<div class="dayhead"><div><div class="daytitle">Day 4 · 大叻</div><div class="daydate">9/15</div></div></div>
+<div class="timeline">
+<div class="item"><div class="time">07:00<br>UTC+7</div><div class="content"><div class="place">起床 / 早餐</div></div></div>
+<div class="item"><div class="time">08:00–12:00<br>UTC+7</div><div class="content"><div class="place">Datanla Waterfall</div><div class="detail">Grab 约 15–25 min · 计划停留 3h</div><div class="addr">Đèo Prenn, Phường 3, Đà Lạt · +84 981 166 088</div><span class="badge done">开放 07:00–17:00</span><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Datanla+Waterfall+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">12:00–14:00<br>UTC+7</div><div class="content"><div class="place">Lẩu gà lá é Thúy Hiếu</div><div class="detail">午餐</div><div class="addr">198 Đ. Bùi Thị Xuân, Phường 2, Đà Lạt · +84 388 217 341</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=198+Bui+Thi+Xuan+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">14:00–16:00<br>UTC+7</div><div class="content"><div class="place">咖啡 / 二手店 / 饰品</div><div class="addr">19A Đặng Thái Thân, Phường 3, Đà Lạt</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=19A+Dang+Thai+Than+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">16:00–18:00<br>UTC+7</div><div class="content"><div class="place">大叻主教座堂 / Con Gà Church</div><div class="detail">计划参加 17:15 工作日弥撒</div><div class="addr">15 Trần Phú, Phường 3, Đà Lạt · +84 263 382 1421</div><span class="badge done">工作日 17:15 弥撒</span><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Da+Lat+Cathedral+15+Tran+Phu" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">18:00–20:00<br>UTC+7</div><div class="content"><div class="place">BỮA TỐI · Rice & Grill</div><div class="detail">晚餐</div><div class="addr">1/4 Đường Pasteur, Phường 4, Đà Lạt</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Rice+and+Grill+Da+Lat+1%2F4+Pasteur" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">21:00<br>UTC+7</div><div class="content"><div class="place">回酒店休息</div></div></div>
+</div>
+<details><summary>展开 Day 4 路线地图</summary><div class="mapbox" style="margin-top:8px"><svg viewBox="0 0 700 260"><path d="M80 200 C160 120 240 80 330 105 S470 160 600 75" class="route" stroke="#6d8d61"/><g font-family="Microsoft YaHei"><circle cx="80" cy="200" r="8" fill="#6d8d61"/><circle cx="240" cy="85" r="8" fill="#6d8d61"/><circle cx="450" cy="160" r="8" fill="#6d8d61"/><circle cx="600" cy="75" r="8" fill="#6d8d61"/><text x="50" y="225">酒店</text><text x="200" y="65">Datanla</text><text x="415" y="190">教堂</text><text x="560" y="55">晚餐</text></g></svg></div></details>
+</section>
+
+<section class="card day" id="day5">
+<div class="dayhead"><div><div class="daytitle">Day 5 · 大叻 → 胡志明</div><div class="daydate">9/16 · 你确认的同时间段安排并列保留</div></div><span class="badge">重叠为有意安排</span></div>
+<div class="timeline">
+<div class="item"><div class="time">09:00<br>UTC+7</div><div class="content"><div class="place">起床 / 收拾行李</div></div></div>
+<div class="item"><div class="time">10:00–11:30<br>UTC+7</div><div class="content"><div class="place">GO! Đà Lạt + CHAM</div><div class="detail">购物 / 咖啡</div><div class="addr">GO!：Trần Quốc Toản, Phường 1 · +84 263 354 5088</div><span class="badge done">GO! 07:30–22:00</span><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=GO+Da+Lat+Tran+Quoc+Toan" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">10:00–11:30<br>UTC+7</div><div class="content"><div class="place">大叻中央市场 · yaogu studio</div><div class="detail">与你上一项并列保留，不判定为冲突</div><div class="addr">Phan Bội Châu / Central Market area</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Da+Lat+Central+Market" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">11:30–12:30<br>UTC+7</div><div class="content"><div class="place">回酒店放东西</div></div></div>
+<div class="item"><div class="time">12:30–14:00<br>UTC+7</div><div class="content"><div class="place">Nem Nướng Gia Truyền Hà Tốt</div><div class="detail">午餐</div><div class="addr">272/6 Đ. Bùi Thị Xuân, Đà Lạt · +84 399 992 009</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=272%2F6+Bui+Thi+Xuan+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">14:00–17:00<br>UTC+7</div><div class="content"><div class="place">咖啡 / 附近闲逛</div><div class="detail">保留机动时间</div></div></div>
+<div class="item"><div class="time">17:00–19:00<br>UTC+7</div><div class="content"><div class="place">Tiệm Gà Hạnh Phúc</div><div class="detail">晚餐</div><div class="addr">86 Đ. Hoàng Diệu, Đà Lạt · +84 914 134 386</div><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=86+Hoang+Dieu+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">20:00–23:00<br>UTC+7</div><div class="content"><div class="place">The Escape Bar & Cafe</div><div class="detail">20:00 后现场音乐氛围</div><div class="addr">以当前可核实信息：2 Trần Phú / Dalat Palace Heritage Hotel 地下；你表格中的 94A Đường Lý Tự Trọng 地址存在信息不一致，出发前务必再确认。</div><span class="badge warn">地址需复核</span><div class="links"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=The+Escape+Bar+Da+Lat" target="_blank">Google Maps</a></div></div></div>
+<div class="item"><div class="time">23:00–00:00<br>UTC+7</div><div class="content"><div class="place">回酒店拿行李</div></div></div>
+<div class="item"><div class="time">00:00–06:00<br>UTC+7</div><div class="content"><div class="place">夜间大巴：大叻 → 胡志明</div><div class="detail">车票已购</div></div></div>
+</div>
+<details><summary>展开 Day 5 路线地图</summary><div class="mapbox" style="margin-top:8px"><svg viewBox="0 0 700 260"><path d="M80 180 C150 120 220 150 300 80 S470 120 610 70" class="route" stroke="#c27a43"/><g font-family="Microsoft YaHei"><circle cx="80" cy="180" r="8" fill="#c27a43"/><circle cx="300" cy="80" r="8" fill="#c27a43"/><circle cx="610" cy="70" r="8" fill="#c27a43"/><text x="50" y="210">酒店</text><text x="270" y="60">市区</text><text x="560" y="50">酒吧</text></g></svg></div></details>
+</section>
+
+<section class="card">
+<h2 class="section">待办清单</h2>
+<div class="small">纯记录，不设置网页勾选框。你告诉我完成了哪一项，再更新页面。</div>
+<ul class="todo">
+<li class="date">9/11 · 出发前</li>
+<li>收拾行李：箱子</li>
+<li>收拾行李：衣服</li>
+<li>收拾行李：杂物</li>
+<li>收拾行李：证件</li>
+<li>喂猫上门：密码已准备（不在公开页面展示具体密码）</li>
+<li>喂猫上门：猫食拍照</li>
+<li>喂猫上门：猫砂盆拍照</li>
+<li>喂猫上门：猫砂袋子</li>
+<li class="date">9/12 · 08:00–12:00 · 12:00 必须出门去机场</li>
+<li>箱子确认完毕</li>
+<li>证件确认</li>
+<li>午餐准备</li>
+<li>关闭所有电</li>
+<li>厨房门关闭</li>
+<li>厕所门关闭</li>
+</ul>
+</section>
+
+<section class="card">
+<h2 class="section">核查备忘</h2>
+<ul class="todo">
+<li><b>Domaine de Marie：</b>免费，公开信息显示 07:00–17:00；你的 09:00–10:30 合适。</li>
+<li><b>Datanla Waterfall：</b>公开信息显示 07:00–17:00；你的 08:00–12:00 合适。</li>
+<li><b>大叻夜市：</b>大叻旅游官方页面列 18:00–23:00；你的 18:00–21:00 合适。</li>
+<li><b>GO! Đà Lạt：</b>官方门店页列 07:30–22:00；你的 10:00–11:30 合适。</li>
+<li><b>大叻主教座堂：</b>当前可查的 2026 信息显示工作日 17:15 有弥撒；9/15 是周二，因此 16:00–18:00 的安排能够覆盖。</li>
+<li><b>Crazy House：</b>当前官方信息显示每天开放，官网页面给出的参观时间为 08:30 起；你的当前表格并未安排该景点，因此不加入行程。</li>
+<li><b>国庆假期：</b>2026 年越南国庆假期为 8/29–9/2，你的 9/12–9/17 不在该假期内。</li>
+</ul>
+</section>
+
+<footer>公开页面不包含确认号、证件号、房间号、具体密码等敏感信息。</footer>
+</div>
+
+<script>
+const events=[
+ {t:"2026-09-12T08:00:00+08:00",n:"出发前准备开始",tz:"北京时间 UTC+8"},
+ {t:"2026-09-12T16:05:00+08:00",n:"广州 → 胡志明航班起飞",tz:"北京时间 UTC+8"},
+ {t:"2026-09-12T17:55:00+07:00",n:"抵达胡志明",tz:"越南时间 UTC+7"},
+ {t:"2026-09-13T00:00:00+07:00",n:"夜间大巴：胡志明 → 大叻",tz:"越南时间 UTC+7"},
+ {t:"2026-09-14T06:30:00+07:00",n:"Day 3：抵达后酒店安排",tz:"越南时间 UTC+7"},
+ {t:"2026-09-15T08:00:00+07:00",n:"Day 4：Datanla Waterfall",tz:"越南时间 UTC+7"},
+ {t:"2026-09-16T00:00:00+07:00",n:"夜间大巴：大叻 → 胡志明",tz:"越南时间 UTC+7"},
+ {t:"2026-09-17T18:55:00+07:00",n:"胡志明 → 广州航班起飞",tz:"越南时间 UTC+7"}
+];
+function pad(n){return String(n).padStart(2,"0")}
+function tick(){
+ const now=Date.now();
+ const e=events.find(x=>new Date(x.t).getTime()>now)||events[events.length-1];
+ let diff=Math.max(0,new Date(e.t).getTime()-now);
+ const d=Math.floor(diff/86400000); diff%=86400000;
+ const h=Math.floor(diff/3600000); diff%=3600000;
+ const m=Math.floor(diff/60000); const s=Math.floor((diff%60000)/1000);
+ document.getElementById("nextName").textContent=e.n;
+ document.getElementById("nextTz").textContent=e.tz;
+ document.getElementById("dd").textContent=d;
+ document.getElementById("hh").textContent=pad(h);
+ document.getElementById("mm").textContent=pad(m);
+ document.getElementById("ss").textContent=pad(s);
+}
+tick();setInterval(tick,1000);
+</script>
+</body>
+</html>
